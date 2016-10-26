@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 int main(){
-    int n, a,  sum = 0 ;
-    float avg;
+    int n, a,  ;
+    float avg, sum = 0.0 ;
    
 
     scanf("%d", &n );
