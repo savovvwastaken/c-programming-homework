@@ -11,8 +11,10 @@ int main(){
        sum = sum+a;
     }
     avg = (float)sum/n;
-    printf("Sum is %d", sum);
-  printf("Avg is %.2f", avg);
+   
+printf("Sum: %.0f", sum);
+    printf("\nAvg: %.2f", avg);
+
 return 0; 
 
 }
