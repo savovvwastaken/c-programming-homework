@@ -6,14 +6,16 @@ float z = 0.0;
   scanf("%d", &n);
     scanf("%d", &m);
     scanf("%d", &k);
-if(n>0){
+while(n!=0){
 for(int i=0; i<k; i++){
 
-kinti += m+m-(z/100);
+kinti += m-((m*z/100));
+n--;
 
 }
+ z = z + 2;
 }
-            z = z + 2;
+           
 
 
 

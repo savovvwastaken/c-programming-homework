@@ -1,12 +1,12 @@
 #include<stdio.h>
 
 int main(){
-    int n, a, i ,  sum = 0 ;
+    int n, a,  sum = 0 ;
     float avg;
    
 
     scanf("%d", &n );
-    for( = 0;n>i ;i++){
+    for(int i = 0;n>i ;i++){
      scanf("%d", &a);
        sum = sum+a;
     }
