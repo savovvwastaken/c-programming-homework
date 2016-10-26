@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    int n, a,  ;
+    int n, a  ;
     float avg, sum = 0.0 ;
    
 
