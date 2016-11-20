@@ -1,23 +1,22 @@
 #include<stdio.h>
+#include<string.h>
 
 int main(){
 
-  char s[1001];
-  int frq[26] = {0};
-  int i;
+  char arr[1001];
+  int dudu[26] = {0};
 
-  fgets(s, 1001, stdin);
 
-  for(i = 0; s[i] != '\0'; i++){
-    if(s[i] >= 'A' && s[i] <= 'Z')s[i] = s[i] + 32;
-    }
+fgets(arr, 1001,stdin);
 
-  for(i = 0; s[i] != '\0'; i++){
-    if(s[i] >= 'a' && s[i] <= 'z')frq[s[i] - 'a']++;
-  }
-
-  for(i = 0; i < 26; i++){
-    if(frq[i])printf("%c - %d\n", i + 'a', frq[i]);
+  for(int i = 0 ; i < strlen(arr) ; i ++){
+       if(arr[i] >= 'a' && arr[i] <='z')
+           dudu[arr[i]-'a']++;
+       if(arr[i] >= 'A' && arr[i] <= 'Z')
+           dudu[arr[i]-'A']++;
+}
+  for(int i = 0; i < 26; i++){
+    if(dudu[i])printf("%c - %d\n", i + 'a', dudu[i]);
   }
 
   return 0;
